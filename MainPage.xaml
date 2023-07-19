@@ -8,20 +8,20 @@
             Spacing="60"
             Padding="20,0"
             VerticalOptions="Center"
-            BackgroundColor=" blue">
+            BackgroundColor="LightSalmon">
 
             <Image
-                Source="dotnet_bot.png"
+                Source="robot.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
+                HeightRequest="250"
                 HorizontalOptions="Center" />
 
-
-            <Button BackgroundColor="ForestGreen" Text="App Cambio" x:Name="Cambio" Clicked="Cambio_Clicked" HorizontalOptions="Center" />
-            <Button BackgroundColor="ForestGreen" Text="App Dino" x:Name="Dino" Clicked="Dino_Clicked" HorizontalOptions="Center"/>
-            <Button BackgroundColor="ForestGreen" Text="App Gas" x:Name="Gas" Clicked="Gas_Clicked" HorizontalOptions="Center" />
-            <Button BackgroundColor="ForestGreen" Text="App Superficie" x:Name="Superficie" Clicked="Superficie_Clicked" HorizontalOptions="Center"/>
-            <Button BackgroundColor="red" Text="Acerca de nosotros" x:Name="Acerca" Clicked="Acerca_Clicked" HorizontalOptions="Center"/>
+            
+            <Button BackgroundColor="White" Text="App Cambio" x:Name="Cambio" Clicked="Cambio_Clicked" HorizontalOptions="Center" />
+            <Button BackgroundColor="White" Text="App Dino" x:Name="Dino" Clicked="Dino_Clicked" HorizontalOptions="Center"/>
+            <Button BackgroundColor="White" Text="App Gas" x:Name="Gas" Clicked="Gas_Clicked" HorizontalOptions="Center" />
+            <Button BackgroundColor="White" Text="App Superficie" x:Name="Superficie" Clicked="Superficie_Clicked" HorizontalOptions="Center"/>
+            <Button BackgroundColor="White" Text="Acerca de nosotros" x:Name="Acerca" Clicked="Acerca_Clicked" HorizontalOptions="Center"/>
             
             
 

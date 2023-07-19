@@ -9,13 +9,13 @@
         Spacing="60"
             Padding="10"
             VerticalOptions="Center"
-            BackgroundColor="GreenYellow">
+            BackgroundColor="Salmon">
 
 
         <Image
                 Source="dino.jpg"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
+                HeightRequest="250"
                 HorizontalOptions="Center" />
         
         <Label Text="Nombre del dinosaurio" />

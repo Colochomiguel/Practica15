@@ -4,15 +4,28 @@
              x:Class="Navegacion.Gas"
              Title="Gas">
     <StackLayout>
-        <Label Text="Cantidad en galones" />
-        <Entry x:Name="txtCantidadGalones" Keyboard="Numeric" />
+        <VerticalStackLayout
+        Spacing="60"
+            Padding="10"
+            VerticalOptions="Center"
+            BackgroundColor="Salmon">
 
-        <Label Text="Precio por litro" />
-        <Entry x:Name="txtPrecioLitro" Keyboard="Numeric" />
 
-        <Button Text="Calcular" Clicked="Calcular_Clicked" />
+            <Image
+                Source="gasofa.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="250"
+                HorizontalOptions="Center" />
+            <Label Text="Cantidad en galones" />
+            <Entry x:Name="txtCantidadGalones" Keyboard="Numeric" />
 
-        <Label x:Name="lblResultado" />
+            <Label Text="Precio por litro" />
+            <Entry x:Name="txtPrecioLitro" Keyboard="Numeric" />
+
+            <Button Text="Calcular" Clicked="Calcular_Clicked" />
+
+            <Label x:Name="lblResultado" />
+        </VerticalStackLayout>
     </StackLayout>
 
 </ContentPage>

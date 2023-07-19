@@ -7,3 +7,4 @@ public partial class Acerca_de_nosotros : ContentPage
 		InitializeComponent();
 	}
 }
+//caceres

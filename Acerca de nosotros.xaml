@@ -5,8 +5,9 @@
              Title="Acerca_de_nosotros">
     <VerticalStackLayout>
         <Label 
-            Text="Hola soy miguel!"
+            Text="Soy Cáceres y esta es mi practica 15!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
 </ContentPage>
+    

@@ -9,13 +9,13 @@
         Spacing="60"
             Padding="20"
             VerticalOptions="Center"
-            BackgroundColor=" aqua">
+            BackgroundColor="Salmon">
            
 
         <Image
-                Source="dinero.png"
+                Source="cambiodine.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
+                HeightRequest="250"
                 HorizontalOptions="Center" />
         
         <Label Text="Cantidad 1" />
